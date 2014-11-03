@@ -1,0 +1,47 @@
+ # grep 1UNS0t-000ReN-If /var/log/exim_mainlog
+2013-04-03 14:02:24 1UNS0t-000ReN-If <= dannyng@qualtek-cn.com H=94-40-90-98.idk.net.pl (qualtek-cn.com) [94.40.90.98]:61739 P=esmtpa A=dovecot_login:dannyng@qualtek-cn.com S=2293 id=D41A2785.D57AC971@qualtek-cn.com T="Enhance your virility with low-price drugs from US pharmacy" for billing@forex-affiliate.com erica@forextraderalerts.com oub@fragomen.com raoul84@free.fr patrick.soulard01@free.fr cyrille.coustenoble@free.fr lionel.pourtau@free.fr vargapapi@freemail.hu vityka25@freemail.hu m-lemke@freenet.de schwaibl@freenet.de th.rudisch@freenet.de puschi.wedel@freenet.de holger.muehlberg@freenet.de jreynolds0@freenetplaza.net brosch@freesurf.ch michael@friesfn.de leehe1@frontier.com bepplin@frontiernet.net beye@frontiernet.net
+2013-04-03 14:02:24 cwd=/var/spool/exim 3 args: /usr/sbin/exim -Mc 1UNS0t-000ReN-If
+2013-04-03 14:02:24 1UNS0t-000ReN-If SMTP connection outbound 1365012144 1UNS0t-000ReN-If qualtek-cn.com beye@frontiernet.net
+2013-04-03 14:02:24 1UNS0t-000ReN-If SMTP connection outbound 1365012144 1UNS0t-000ReN-If qualtek-cn.com bepplin@frontiernet.net
+2013-04-03 14:02:24 1UNS0t-000ReN-If SMTP connection outbound 1365012144 1UNS0t-000ReN-If qualtek-cn.com leehe1@frontier.com
+2013-04-03 14:02:24 1UNS0t-000ReN-If SMTP connection outbound 1365012144 1UNS0t-000ReN-If qualtek-cn.com michael@friesfn.de
+2013-04-03 14:02:25 1UNS0t-000ReN-If SMTP connection outbound 1365012145 1UNS0t-000ReN-If qualtek-cn.com brosch@freesurf.ch
+2013-04-03 14:02:26 1UNS0t-000ReN-If SMTP connection outbound 1365012146 1UNS0t-000ReN-If qualtek-cn.com jreynolds0@freenetplaza.net
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com holger.muehlberg@freenet.de
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com puschi.wedel@freenet.de
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com th.rudisch@freenet.de
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com schwaibl@freenet.de
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com m-lemke@freenet.de
+2013-04-03 14:02:27 1UNS0t-000ReN-If SMTP connection outbound 1365012147 1UNS0t-000ReN-If qualtek-cn.com vityka25@freemail.hu
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com vargapapi@freemail.hu
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com lionel.pourtau@free.fr
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com cyrille.coustenoble@free.fr
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com patrick.soulard01@free.fr
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com raoul84@free.fr
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com oub@fragomen.com
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com erica@forextraderalerts.com
+2013-04-03 14:02:28 1UNS0t-000ReN-If ** erica@forextraderalerts.com R=fail_remote_domains: The mail server could not deliver mail to erica@forextraderalerts.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+2013-04-03 14:02:28 1UNS0t-000ReN-If SMTP connection outbound 1365012148 1UNS0t-000ReN-If qualtek-cn.com billing@forex-affiliate.com
+2013-04-03 14:02:29 1UNS0t-000ReN-If ** leehe1@frontier.com R=lookuphost T=remote_smtp: SMTP error from remote mail server after initial connection: host mx.dlls.pa.frontiernet.net [199.224.64.204]: 554-mx02.dlls.pa.frontiernet.net\n554 Access from 199.188.205.30 has been rejected. Please contact support@senderbase.org for more information. If you believe that this failure is in error, please contact intended recipient via alternate means.
+2013-04-03 14:02:29 1UNS0t-000ReN-If ** bepplin@frontiernet.net R=lookuphost T=remote_smtp: SMTP error from remote mail server after RCPT TO:<bepplin@frontiernet.net>: host mx.frontiernet.net [66.133.129.79]: 550 #5.7.1 Your access to
+submit messages to this e-mail system has been rejected.
+2013-04-03 14:02:29 1UNS0t-000ReN-If ** beye@frontiernet.net R=lookuphost T=remote_smtp: SMTP error from remote mail server after RCPT TO:<beye@frontiernet.net>: host mx.frontiernet.net [66.133.129.79]: 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
+2013-04-03 14:02:30 1UNS0t-000ReN-If => billing@forex-affiliate.com R=lookuphost T=remote_smtp H=mailfw.forex-affiliate.com [91.216.210.55]
+2013-04-03 14:02:30 1UNS0t-000ReN-If => jreynolds0@freenetplaza.net R=lookuphost T=remote_smtp H=mx1.csof.net [195.22.26.234]
+2013-04-03 14:02:30 1UNS0t-000ReN-If ** michael@friesfn.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host smtp-01.tld.t-online.de [194.25.134.76]: 550 5.7.0 Message considered as spam or virus, rejected
+2013-04-03 14:02:30 1UNS0t-000ReN-If => oub@fragomen.com R=lookuphost T=remote_smtp H=mail.global.frontbridge.com [65.55.88.22] X=TLSv1:AES128-SHA:128
+2013-04-03 14:02:30 1UNS0t-000ReN-If ** raoul84@free.fr R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx1.free.fr [212.27.48.7]: 550 spam detected
+2013-04-03 14:02:30 1UNS0t-000ReN-If ** patrick.soulard01@free.fr R=lookuphost T=remote_smtp: SMTP error from remote mail server after RCPT TO:<patrick.soulard01@free.fr>: host mx1.free.fr [212.27.48.7]: 550 5.2.1 This mailbox has been blocked due to inactivity
+2013-04-03 14:02:30 1UNS0t-000ReN-If ** cyrille.coustenoble@free.fr R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx1.free.fr [212.27.48.7]: 550 spam detected
+2013-04-03 14:02:30 1UNS0t-000ReN-If ** lionel.pourtau@free.fr R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx1.free.fr [212.27.48.7]: 550 spam detected
+2013-04-03 14:02:31 1UNS0t-000ReN-If => brosch@freesurf.ch R=lookuphost T=remote_smtp H=mx.freesurf.ch [194.158.229.68]
+2013-04-03 14:02:31 1UNS0t-000ReN-If ** m-lemke@freenet.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx.freenet.de [195.4.92.211]: 550 spam message rejected by 0.mx.freenet.de
+2013-04-03 14:02:31 1UNS0t-000ReN-If ** schwaibl@freenet.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx.freenet.de [195.4.92.211]: 550 spam message rejected by 0.mx.freenet.de
+2013-04-03 14:02:31 1UNS0t-000ReN-If ** th.rudisch@freenet.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx.freenet.de [195.4.92.211]: 550 spam message rejected by 0.mx.freenet.de
+2013-04-03 14:02:31 1UNS0t-000ReN-If ** puschi.wedel@freenet.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx.freenet.de [195.4.92.211]: 550 spam message rejected by 0.mx.freenet.de
+2013-04-03 14:02:31 1UNS0t-000ReN-If ** holger.muehlberg@freenet.de R=lookuphost T=remote_smtp: SMTP error from remote mail server after end of data: host mx.freenet.de [195.4.92.211]: 550 spam message rejected by 0.mx.freenet.de
+2013-04-03 14:02:32 1UNS0t-000ReN-If ** vargapapi@freemail.hu R=lookuphost T=remote_smtp: SMTP error from remote mail server after RCPT TO:<vargapapi@freemail.hu>: host fmx.freemail.hu [195.228.245.2]: 550 address rejected (#5.1.1)
+2013-04-03 14:02:32 1UNS0t-000ReN-If ** vityka25@freemail.hu R=lookuphost T=remote_smtp: SMTP error from remote mail server after RCPT TO:<vityka25@freemail.hu>: host fmx.freemail.hu [195.228.245.2]: 550 address rejected (#5.1.1)
+2013-04-03 14:02:32 cwd=/var/spool/exim 7 args: /usr/sbin/exim -t -oem -oi -f <> -E1UNS0t-000ReN-If
+2013-04-03 14:02:32 1UNS12-000Rn9-Sh <= <> R=1UNS0t-000ReN-If U=mailnull P=local S=6517 T="Mail delivery failed: returning message to sender" for dannyng@qualtek-cn.com
+2013-04-03 14:02:32 1UNS0t-000ReN-If Completed
