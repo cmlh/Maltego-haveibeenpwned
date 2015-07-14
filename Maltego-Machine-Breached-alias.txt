@@ -1,0 +1,10 @@
+machine("cmlh.Breach.alias", 
+        displayName:"Breached", 
+        author:"Christian Heinrich",
+        description: "Breaches aliases.") {
+
+    start {
+        run("paterva.v2.fromAliasTohaveibeenpwnedAPIv2BreachedAccount")
+        run("paterva.v2.TohaveibeenpwnedAPIv2Breaches")
+    }
+}

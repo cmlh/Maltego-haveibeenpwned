@@ -1,0 +1,13 @@
+machine("cmlh.Breached", 
+        displayName:"Breached", 
+        author:"Christian Heinrich",
+        description: "Breached e-mail addresses.") {
+
+    start {
+        paths {
+            run("paterva.v2.fromEmailTohaveibeenpwnedAPIv2BreachedAccount")
+            run("paterva.v2.tohaveibeenpwnedAPIv2PasteAccount")
+        }
+        run("paterva.v2.TohaveibeenpwnedAPIv2Breaches")
+    }
+}
