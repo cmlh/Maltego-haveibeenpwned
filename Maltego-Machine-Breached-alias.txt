@@ -1,10 +1,10 @@
-machine("cmlh.Breach.alias", 
-        displayName:"Breached", 
-        author:"Christian Heinrich",
-        description: "Breaches aliases.") {
+machine("cmlh.haveibeenpwned.alias", 
+    displayName:"@haveibeenpwned Alias Breached", 
+    author:"Christian Heinrich",
+    description: "Check if an alias and associated domain(s) are breached using @haveibeenpwned.") {
 
     start {
-        run("paterva.v2.fromAliasTohaveibeenpwnedAPIv2BreachedAccount")
-        run("paterva.v2.TohaveibeenpwnedAPIv2Breaches")
+        run("paterva.v2.HIBPbreachedAlias")
+        run("paterva.v2.HIBPbreachedDomain")
     }
 }

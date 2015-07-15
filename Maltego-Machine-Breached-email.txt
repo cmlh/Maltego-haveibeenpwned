@@ -1,13 +1,13 @@
-machine("cmlh.Breached", 
-        displayName:"Breached", 
+machine("cmlh.haveibeenpwned.email", 
+        displayName:"@haveibeenpwned E-mail Breached", 
         author:"Christian Heinrich",
-        description: "Breached e-mail addresses.") {
+        description: "Check if an e-mail address was posted on Slexy, Pastebin, QuickLeak, Pastie and Ghostbin or breached and if so the associated domain(s) using @haveibeenpwned") {
 
     start {
         paths {
-            run("paterva.v2.fromEmailTohaveibeenpwnedAPIv2BreachedAccount")
-            run("paterva.v2.tohaveibeenpwnedAPIv2PasteAccount")
+            run("paterva.v2.HIBPbreachedEmail")
+            run("paterva.v2.HIBPpaste")
         }
-        run("paterva.v2.TohaveibeenpwnedAPIv2Breaches")
+        run("paterva.v2.HIBPbreachedDomain")
     }
 }
