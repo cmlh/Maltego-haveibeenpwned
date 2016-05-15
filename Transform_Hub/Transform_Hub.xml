@@ -1,0 +1,25 @@
+<Seed Pos="10" Display="haveibeenpwned">
+	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/haveibeenpwned</Url> <!--visible is optional, default "false"--> 
+	<Description>Check if an Account or Domain has been Compromised?</Description> 
+	<Details>Has an Alias, E-mail address and/or Domain been Compromised or listed in a post to Pastebin, Slexy, QuickLeak, Pastie and/or Ghostbin?</Details> 
+	<Modified>1463277150</Modified> <!-- unix time --> 
+	<Icon><!-- 48x48px png--> 
+		<Url>https://maltego-haveibeenpwned.herokuapp.com/images/transform_hub.png</Url> 
+	</Icon>
+	<Provider>
+		<Name>Christian Heinrich</Name>
+		<Website>https://haveibeenpwned.com/API/Consumers</Website>
+		<Email>christian.heinrich@cmlh.id.au</Email>
+		<Phone></Phone> 
+	</Provider>
+	<Registration>
+		<Website></Website>
+	</Registration>
+	<Pricing>
+		<Info></Info>
+		<Website></Website>
+	</Pricing>
+	<Inputs> 
+		<!-- Examples... --> 
+	</Inputs> 
+</Seed>
