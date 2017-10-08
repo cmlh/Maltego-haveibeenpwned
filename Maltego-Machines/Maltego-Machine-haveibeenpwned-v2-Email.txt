@@ -1,13 +1,16 @@
 machine("cmlh.haveibeenpwned.v2.email",
     displayName:"@haveibeenpwned v2 E-Mail Address",
     author:"Christian Heinrich",
-    description:"Is an e-mail address considered breached by @haveibeenpwned API v2?") {
+    description:"Is an e-mail address listed as breached by @haveibeenpwned API v2?") {
 
     start {
         paths {
             run("paterva.v2.HIBPv2breachedEmail")
             run("paterva.v2.HIBPv2paste")
         }
-        run("paterva.v2.HIBPv2breachedDomain")
+        paths{
+            run("paterva.v2.HIBPv2breachedDomain")
+            run("paterva.v2.HIBPv2breach")
+        }
     }
 }
