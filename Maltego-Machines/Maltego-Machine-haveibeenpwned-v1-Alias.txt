@@ -1,0 +1,10 @@
+machine("cmlh.haveibeenpwned.v1.alias",
+    displayName:"@haveibeenpwned v1 Alias",
+    author:"Christian Heinrich",
+    description:"Is an alias listed as breached by @haveibeenpwned API v1?") {
+
+    start {
+        run("paterva.v2.HIBPv1breachedAlias")
+        run("paterva.v2.HIBPbreachToDomain")
+    }
+}
