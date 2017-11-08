@@ -1,8 +1,6 @@
 ﻿Name:                haveibeenpwned
 Seed URL:            https://cetas.paterva.com/TDS/runner/showseed/haveibeenpwned
-Description (short): Check if an Account or Domain has been compromised?
-Description (long):  Has an Alias, E-mail address and/or Domain been Compromised or listed in a post to Pastebin, Slexy, QuickLeak, Pastie and/or Ghostbin?
-Icon URL:            https://maltego-haveibeenpwned.herokuapp.com/images/transform_hub.png
-Provider Name:       Christian Heinrich
+Description (short): Have I Been Pwned?
+Description (long):  Has an [Hashed] Password/Domain/Alias/E-mail been breached or listed in a post to Pastebin, etc?
 Provider website:    https://haveibeenpwned.com/API/Consumers
 Provider email:      christian.heinrich@cmlh.id.au
