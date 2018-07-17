@@ -1,6 +1,6 @@
-﻿Name:                haveibeenpwned
+﻿Name:                Have I Been Pwned?
 Seed URL:            https://cetas.paterva.com/TDS/runner/showseed/haveibeenpwned
-Description (short): Have I Been Pwned?
+Description (short): Pwned Password v3 Support
 Description (long):  Has an [Hashed] Password/Domain/Alias/E-mail been breached or listed in a post to Pastebin, etc?
-Provider website:    https://haveibeenpwned.com/API/Consumers
+Provider website:    https://github.com/cmlh/Maltego-haveibeenpwned
 Provider email:      christian.heinrich@cmlh.id.au
