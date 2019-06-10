@@ -1,8 +1,8 @@
 <Seed Pos="10" Display="Have I Been Pwned?">
 	<Url Visible="false">https://cetas.paterva.com/TDS/runner/showseed/haveibeenpwned</Url> <!--visible is optional, default "false"--> 
-	<Description>Pwned Password v3 Support</Description> 
+	<Description>Pwned Password v4 Support</Description> 
 	<Details>Has a [hashed] password/domain been breached or alias/e-mail listed in a post to Pastebin, etc?</Details> 
-	<Modified>1521403550</Modified> <!-- unix time --> 
+	<Modified>1560155400</Modified> <!-- unix time --> 
 	<Icon><!-- 48x48px png--> 
 		<Url>https://maltego-haveibeenpwned.herokuapp.com/images/transform_hub.png</Url> 
 	</Icon>
